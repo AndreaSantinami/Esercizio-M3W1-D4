@@ -1,0 +1,124 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px 5px 10px;
+    background-color: #fff3d2;
+    border-radius: 50px;
+    width: 60%;
+    margin: 50px auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-button {
+    background-color: #ffd86a;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #ffcc33;
+}
+
+.shop-button {
+    background-color: #ffd86a;
+    border: none;
+    padding: 0 30px;
+    border-radius: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop-button:hover {
+    background-color: #ffcc33;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+.bee {
+    background: url('./S1P2-Esercizi-Flex-Assets/logo.png') no-repeat center;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+
+}
+
+.products>div.button {
+    width: 300px;
+    height: auto;
+    border-radius: 0 0 50px 50px;
+    background-color: #fff3d2;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    gap: 20px;
+    padding-top: 15px;
+}
+
+.products>div>img {
+    width: 300px;
+    border-radius: 50px 50px 0 0;
+
+}
+
+.products>div.content {
+    background-color: #fff3d2;
+    width: 280px;
+    height: auto;
+    padding-left: 20px;
+}
+
+.products>div.content>p,
+b {
+    margin: 0;
+}
+
+.content span {
+    margin-left: 80px;
+}
+
+article{
+    display: flex;
+    background-color: #fff3d2;
+    margin-top: 40px;
+    width: 60%;
+    align-items: center;
+    border-radius: 50px;
+}
+
+article > div{
+    margin: 10px;
+    padding:10px
+}
+
+article     > div > img{
+    border-radius: 50px;
+}
+
+.art{
+    display: flex;
+    justify-content: center;
+}
